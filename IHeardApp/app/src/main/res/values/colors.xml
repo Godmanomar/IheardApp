@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D6912C</color>
+    <color name="colorPrimaryDark">#2259B8</color>
+    <color name="colorPrimary2">#053DA5</color>
+    <color name="colorAccent">#5568DF</color>
+    <color name="colorAccent2">#D6912C</color>
+    <color name="filter_label_normal">#8a8889</color>
+    <color name="filter_label_selected">#221F20</color>
+    <color name="color_option_menu">#FF3990</color>
+</resources>

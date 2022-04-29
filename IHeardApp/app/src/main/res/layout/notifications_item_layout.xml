@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notifications_profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/profile"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <LinearLayout
+        android:layout_toEndOf="@+id/notifications_profile_image"
+        android:layout_toStartOf="@+id/notifications_post_image"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/username_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/comment_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/notifications_post_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/notifications_mssgBtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Chat"
+        android:layout_alignParentEnd="true"
+
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/colorPrimary2"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        >
+
+    </Button>
+
+</RelativeLayout>

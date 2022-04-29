@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width ="320dp"
+        android:layout_height ="110dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:background ="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/verifyTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+       android:text="You must verify your Email Address before you log In for the first time!"
+
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+
+
+        />
+
+
+    <View
+        android:layout_width ="320dp"
+        android:layout_height ="100dp"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:background ="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/editcheckEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verifyTextEmail"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:text=" Check your email for the link...
+click the done button when you are finished..."
+        android:textColor="@android:color/holo_red_dark"
+        android:padding="10dp"
+
+
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="125dp"
+        android:layout_centerHorizontal="true"
+        android:text="  Done   "
+        android:layout_below="@+id/editcheckEmail"
+        android:textAlignment="center"
+
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textViewResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="21sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonReset"
+        android:text=""
+        />
+</RelativeLayout>
